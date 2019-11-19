@@ -1,11 +1,22 @@
 <template>
   <div>
-    <h2>Nav Bar</h2>
-    <ul>
-      <li v-for="routes in links" v-bind:key="routes.id">
-        <router-link :to="`${routes.page}`">{{routes.text}}</router-link>
-      </li>
-    </ul>
+    <div class="row">
+      <div class="nav-title">
+        <h3>Bootstrap Sidebar</h3>
+      </div>
+      <ul class="nav nav-pills flex-column">
+        <li
+          class="nav-item mt-auto"
+          data-toggle="tab"
+          v-for="routes in links"
+          v-bind:key="routes.id"
+        >
+          <div class="nav-link">
+            <router-link :to="`${routes.page}`">{{routes.text}}</router-link>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -47,45 +58,4 @@ export default {
 </script>
 
 <style scoped>
-ul hover,
-ul li router-link-active,
-ul li router-link-exact-active {
-  background-color: #4caf50;
-  color: white;
-  cursor: pointer;
-}
-
-/* Change the link color on hover */
-li router-link:hover {
-  background-color: #555;
-  color: white;
-}
-
-ul li router-link {
-  display: block;
-  width: 60px;
-}
-
-li {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  text-align: center;
-  border-bottom: 1px solid #555;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  overflow: auto;
-}
-
-li:last-child {
-  border-bottom: none;
-}
 </style>

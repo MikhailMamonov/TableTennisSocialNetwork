@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "59096fb99bca24e14296dce9864bb4c1d98053cb"
+    "signature": "21f5dcff0ac7d2b52ff9c210f4a3f83af119904f"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "Server/1.0.0": {
         "dependencies": {
+          "EntityFramework": "6.3.0",
           "Microsoft.AspNet.WebApi.Cors": "5.2.7",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -36,6 +37,7 @@
           "Server.dll": {}
         }
       },
+      "EntityFramework/6.3.0": {},
       "Microsoft.AspNet.Cors/5.2.7": {
         "runtime": {
           "lib/net45/System.Web.Cors.dll": {
@@ -3200,6 +3202,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EntityFramework/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mEvhoXscTyLFMcnbLzKlbWdx6N8fCY2IMe4drjUTMFqOqI4KThnTPXr1m50oXDJAn5PvCy2e90IcwN/OxkJUjg==",
+      "path": "entityframework/6.3.0",
+      "hashPath": "entityframework.6.3.0.nupkg.sha512"
     },
     "Microsoft.AspNet.Cors/5.2.7": {
       "type": "package",
