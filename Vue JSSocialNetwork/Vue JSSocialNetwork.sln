@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vue JSSocialNetwork", "Vue JSSocialNetwork\Vue JSSocialNetwork.csproj", "{4AA10FCD-FD1D-4AB5-8110-79B687DD1A6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vue JSSocialNetwork.Services", "Vue JSSocialNetwork.Services\Vue JSSocialNetwork.Services.csproj", "{9AD19F67-4002-4309-8F94-2BE8EA89574E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VueSocialNetwork.Data", "Vue JSSocialNetwork.Data\VueSocialNetwork.Data.csproj", "{86201872-FA0D-4BBC-9CD1-582B04BA24D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueSocialNetwork.Common", "VueSocialNetwork.Common\VueSocialNetwork.Common.csproj", "{72F0442B-3235-4831-9528-4C9DAD775625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AA10FCD-FD1D-4AB5-8110-79B687DD1A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA10FCD-FD1D-4AB5-8110-79B687DD1A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA10FCD-FD1D-4AB5-8110-79B687DD1A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA10FCD-FD1D-4AB5-8110-79B687DD1A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD19F67-4002-4309-8F94-2BE8EA89574E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD19F67-4002-4309-8F94-2BE8EA89574E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD19F67-4002-4309-8F94-2BE8EA89574E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD19F67-4002-4309-8F94-2BE8EA89574E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86201872-FA0D-4BBC-9CD1-582B04BA24D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86201872-FA0D-4BBC-9CD1-582B04BA24D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86201872-FA0D-4BBC-9CD1-582B04BA24D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86201872-FA0D-4BBC-9CD1-582B04BA24D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F0442B-3235-4831-9528-4C9DAD775625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F0442B-3235-4831-9528-4C9DAD775625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F0442B-3235-4831-9528-4C9DAD775625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F0442B-3235-4831-9528-4C9DAD775625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81E815A7-F502-4525-A9F5-CBB87AE15C18}
+	EndGlobalSection
+EndGlobal
